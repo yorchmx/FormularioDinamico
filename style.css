@@ -22,7 +22,7 @@ body {
     height: 90vh;
     display: flex;
     justify-content: space-around;
-    transition: all .5s ease-out;
+    transition:  all .5s ease-out;
 }
 
 .welcome-back {
@@ -67,8 +67,8 @@ body {
 }
 
 .create-account {
-        padding: 2.7rem 0;
-        font-size: 1.7rem;
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
 }
 
 .iconos {
@@ -97,7 +97,7 @@ body {
 }
 
 .cuenta-gratis {
-    padding: 2 rem 0;
+    padding: 2rem 0;
 }
 
 .formulario input {
@@ -127,4 +127,20 @@ body {
     font-size: .8rem;
     cursor: pointer;
     color: #222;
+}
+
+.sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sign-in.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
 }
